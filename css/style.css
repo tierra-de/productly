@@ -4,7 +4,22 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    color: #544837;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.title {
+    color: #2F281E;
 }
 
 .container {
@@ -37,6 +52,7 @@ body {
     font-size: 14px;
     line-height: 28px;
     text-decoration: none;
+    font-weight: 400;
 }
 
 
@@ -64,3 +80,54 @@ body {
     border-radius: 4px;
 }
 
+.top__inner {
+    padding: 133px 0 80px;
+    background-image: url('../images/top-mage.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.top__title {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+    max-width: 518px;
+}
+
+.top__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    max-width: 460px;
+}
+
+.top__btn {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #ff7700;
+    border-radius: 4px;
+    padding: 15px 41px 14px;
+    margin-right: 30px;
+    border: none;
+}
+
+.top__link {
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 600;
+    color: #ff9900;
+    padding-left: 25px;
+    position: relative;
+}
+
+.top__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 17px;
+    height: 19px;
+    background-image: url('../images/video-icon.svg');
+}
