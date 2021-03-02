@@ -184,5 +184,49 @@ button {
     margin: 0 auto;
 }
 
+.design {
+    margin-top: 120px;
+}
 
+.design__inner {
+    max-width: 486px;
+}
 
+.design__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 18px;
+}
+
+.design__title-text {
+    margin-top: 20px;
+}
+
+.design__items {
+    margin-top: 30px;
+}
+
+.design__item {
+    list-style: none;
+}
+
+.design__item + .design__item {
+    margin-top: 28px;
+}
+
+.design__item-title {
+    font-weight: 700;
+
+}
+
+.design__item-text {
+    margin-top: 20px;
+}
+
+.design__wrapper {
+    margin: 80px 0 80px;
+    background-image: url('../images/design-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
