@@ -189,6 +189,13 @@ button {
 }
 
 .design__inner {
+    margin: 80px 0 80px;
+    background-image: url('../images/design-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.design__wrapper {
     max-width: 486px;
 }
 
@@ -224,9 +231,3 @@ button {
     margin-top: 20px;
 }
 
-.design__wrapper {
-    margin: 80px 0 80px;
-    background-image: url('../images/design-bg.png');
-    background-repeat: no-repeat;
-    background-position: right;
-}
