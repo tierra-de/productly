@@ -82,7 +82,7 @@ button {
 
 .top__inner {
     padding: 133px 0 80px;
-    background-image: url('../images/top-mage.png');
+    background-image: url('../images/top-bg.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -184,100 +184,60 @@ button {
     margin: 0 auto;
 }
 
-.design {
-    margin-top: 120px;
+.direction {
+    padding: 120px 0 100px;
 }
 
-.design__inner {
-    margin: 133px 0 80px;
-    background-image: url('../images/design-bg.png');
-    background-repeat: no-repeat;
-    background-position: right;
+.direction__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
-.design__wrapper {
+.direction__item-content {
     max-width: 486px;
 }
 
-.design__title {
+.direction__item-pretitle {
+    margin-bottom: 3px;
+}
+
+.direction__item-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    margin-top: 18px;
+    margin-bottom: 22px;
 }
 
-.design__title-text {
-    margin-top: 20px;
+.direction__item-subtitle {
+    font-weight: 700;
+    margin-bottom: 12px;
 }
 
-.design__items {
-    margin-top: 30px;
+.direction__item-titletext {
+    margin-bottom: 30px;
 }
 
-.design__item {
+.direction__item-text {
+    margin-bottom: 25px;
+}
+
+.direction__list {
     list-style: none;
 }
 
-.design__item + .design__item {
-    margin-top: 28px;
+.direction__list-item {
+    margin-bottom: 30px;
+    padding-left: 65px;
+    position: relative;
 }
 
-.design__item-title {
-    font-weight: 700;
-
-}
-
-.design__item-text {
-    margin-top: 20px;
-}
-
-.product {
-    margin-top: 100px;
-}
-
-.product__inner {
-    margin: 133px 0 80px;
-    background-image: url('../images/product-bg.png');
-    background-repeat: no-repeat;
-    
-}
-
-.product__wrapper {
-    max-width: 486px;
-    margin-left: auto;
-}
-
-.product__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    margin-top: 18px;
-}
-
-.product__title-text {
-    margin-top: 20px;
-}
-
-.product__items-list {
-    margin-top: 20px;
-}
-
-.product__item {
-    margin-top: 20px;
-    list-style: none;
-}
-
-.product__item-text {
-    padding: 20px;
-}
-
-.product__item-text::before {
+.direction__list-item::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 2px;
-    width: 21px;
-    height: 21px;
-    background-image: url('../images/video-icon.svg'); 
-
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/check.svg);
 }
